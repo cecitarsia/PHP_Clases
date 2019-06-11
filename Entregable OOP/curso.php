@@ -10,7 +10,7 @@
 			$this->setNombre($elNombreCurso);
 			$this->setCodigo($elCodigoCurso);
 			}
-		}
+
 
 			public function setNombre($elNombreCurso) {
 				$this->nombre = $elNombreCurso;
@@ -27,3 +27,4 @@
 			public function getCodigo() {
 				return $this->codigo;
 			}
+		}
